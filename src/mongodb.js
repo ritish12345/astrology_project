@@ -1,8 +1,8 @@
 
 const mongoose=require("mongoose")
-
-
-mongoose.connect("mongodb+srv://ritishbansal123:ritish098@astrology.abdcmbl.mongodb.net/?retryWrites=true&w=majority&appName=Astrology")
+require('dotenv').config();
+const uri=process.env.MONGODB_URI
+mongoose.connect(uri)
 
 .then(()=>{
     console.log('mongodb connected');
