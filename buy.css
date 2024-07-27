@@ -1,0 +1,424 @@
+
+
+  
+  .for-back{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 218.45vh;
+    height: 0vh;
+    
+  background-attachment: fixed;
+  z-index: -20000000;
+  opacity: 95%;
+    
+  }
+  .first_row{
+      margin-bottom: 10px;  
+      height:60px;
+      background-color: rgba(253, 253, 253, 0.95);;
+    }
+  
+    .contact-details
+    {
+        display: inline-block;
+        margin-right:15px;
+        margin-top: 10px;
+    }
+    
+    
+    .contact-details1{
+        display: inline-block;
+        margin-right :610px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    .consult{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid rgb(50, 50, 46);
+        color: #333;
+        text-transform: none;
+        padding: 8px 20px 10px;
+        border-radius: 50px;
+        margin-right :150px;
+        
+        
+        
+    }   
+    .consult:hover{
+        background-color: rgb(244, 244, 221);
+        transform: scale(0.9);
+    }
+    
+    
+    
+    .login-sign{
+        display: inline-block;
+        margin-right:25px;
+        vertical-align: middle;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit; /* Use parent's color */
+      }
+    
+    .home,.shop{
+        position: relative; /* Position the dropdown content relative to the button */
+        display: inline-block;
+        
+         /* Keep the dropdown elements together */
+      }
+      
+      .dropdown-toggle {
+       /* Green background for the button */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      
+      .dropdown-content {
+        display: none; /* Hide the dropdown content initially */
+        position: absolute;
+        background-color: rgb(223, 219, 208);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #5f5c5c; /* Adjust color as needed */
+      }
+    
+      .dropdown-content a:last-child {
+        border-bottom: none;
+    }
+    
+      
+      .dropdown-content a:hover { /* Change color of dropdown links on hover */
+        background-color: rgb(129, 120, 99);
+      }
+      
+      .home:hover .dropdown-content { /* Show the dropdown menu on hover */
+        display: block;
+         
+      }
+      .shop:hover .dropdown-content { /* Show the dropdown menu on hover */
+        display: block;
+      }
+      
+      ul.no-bullets{
+        list-style-type: none;
+        display:flex;
+        
+    }
+    
+   /* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 20vh;
+  padding-left: 70px; /* Optional: align elements to start */
+}
+
+header.sticky {
+  position: sticky;
+  top: 0;
+  padding: 40px 100px;
+  padding-left: 70px;
+  background:rgb(30, 30, 30);
+  opacity: 90%;
+  height: 15vh;
+  z-index: 1000000000000000;
+}
+
+header.sticky > * {
+  transform: translateY(-10px); /* Adjust value as needed */
+}
+
+header.sticky .symbol {
+  margin-right: 230px;
+  transform: translateY(-10px);
+}
+
+header.sticky ul li a {
+  color: rgb(254, 249, 195);
+  font-size: 17px;
+}
+
+.symbol {
+  height: 50px;
+  width: 200px; /* Set specific width */
+  margin-left: 0; /* Position image at left edge */
+  margin-right: 310px;
+  margin-top: 8px;
+  /* clip-path: circle(100%); */
+}
+
+    
+    
+    
+    
+    .about-section {
+      display: flex;
+      
+      
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    .centered-content {
+      display: flex;
+      color : white;
+      flex-direction: column; /* stack heading and list vertically */
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 80px;
+    } 
+    
+    .hello{
+      background-color: rgb(242, 238, 228)
+      
+    }
+    .moon {
+      
+      background-color: rgb(242, 238, 228);
+      
+      
+      
+      
+      display: flex;
+      
+      
+    }
+    
+
+    
+   
+    
+    
+    
+    
+    
+  
+    
+  
+   
+  
+  
+    
+    
+  
+    
+  
+    .choose{
+      margin-top: 100px;
+      
+      display:flex;
+      margin-left: 590px;
+      font-family: 'Young Serif', serif;
+      font-size: 3rem;
+    }
+  
+    .choose2{
+      margin-left:375px;
+      font-size: 1.3rem;
+      color: rgb(250, 239, 155);
+  
+    }
+  
+    .choose3{
+      margin-left:480px;
+      font-size: 1.3rem;
+      margin-bottom: 100px;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .apps{
+    margin-left: 540px;
+    display: flex;
+    size:500px;
+  } 
+  
+  .footer{
+    background: rgb(30, 30, 30);
+    opacity: 90%;
+    color:white;
+    height:400px;
+    position:relative;
+  }
+  .footer .footer-content{
+    
+    
+    height: 350px;
+    display: flex;
+  
+  
+  }
+  .footer .footer-content .footer-section{
+    flex:1;
+    
+    
+    padding:25px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  .footer .footer-content .contact{
+  
+    font-size:18px;
+  }
+  
+  .footer .footer-content .socials{
+  
+    font-size:20px;
+  
+  }
+  
+  
+  .footer .footer-bottom{
+    background: #343a40;
+    color:rgb(250, 239, 155);
+    height: 50px;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    padding-top:20px;
+    
+  }
+  
+  .footer-b{
+    font-family: 'Young Serif', serif;
+    font-size: 0.3rem;
+    text-decoration: underline;;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 3px;
+    color:rgb(250, 239, 155);
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+  
+  
+  .abc {
+    margin-left: 40px;
+    
+    margin-bottom: 10px;
+    /* Additional styles... */
+    border-bottom: 2px solid white; /* You can adjust the color and thickness */
+    width: 100px;
+    padding-bottom: 2px;
+    transition: border-bottom 0.4s ease-in-out;
+     /* Adjust width to your desired fixed length */
+     /* Center the text within the fixed width */
+  }
+  .abc:hover {
+    border-bottom: 2px solid transparent; /* Fade in the white border on hover */
+  }
+  .abc1{
+    margin-left: 40px;
+    
+    margin-bottom: 10px;
+  }
+  
+  .footer-section.links {
+    display: flex;
+    flex-wrap: wrap;  /* Allow elements to wrap to the next line */
+  }
+  
+  .footer-section.links h2 {
+    flex-basis: 100%;  /* Each h2 takes up 100% width on a new line */
+  }
+  
+  .footer-section.links .content123 {
+    margin-top: 20px;  /* Add some space between the h2 and content */
+  }
+  
+  .footer-b1{
+    font-family: 'Young Serif', serif;
+    font-size: 0.3rem;
+    text-decoration: underline;;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 3px;
+    color:rgb(250, 239, 155);
+    margin-bottom: 10px;
+    
+  }
+  
+  .footer-section.contact-form form {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: stretch; /* Ensure elements take up full width */
+  }
+  
+  .footer-section.contact-form form button {
+   display: block;
+   font-size: 20px;
+   padding:15px 20px;
+   height: 50px; /* Adjust this value to your desired height */
+   width: 150px /* Ensure button takes full width */
+  }
+  
+  .footer-section.contact-form .text-input.contact-input {
+    width: 300px;
+    margin-bottom: 25px;
+    color:black; /* Replace 300px with your desired width */
+    background-color: white;
+    opacity: 90%;
+    border: 2px solid rgb(250, 239, 155);
+    font-size:18px;
+    
+  }
+  
+  .footer-section.contact-form .text-input.contact-input1 {
+    width: 300px; /* Replace 300px with your desired width */
+    height:100px;
+    color:black;
+    background-color: white;
+    opacity: 90%;
+    border: 2px solid rgb(250, 239, 155);
+    font-size:18px;
+  }
+  
+  .footer-section.contact-form input[type="email"]::placeholder,
+  .footer-section.contact-form textarea::placeholder {
+    color: black;
+  }
+  
+  
