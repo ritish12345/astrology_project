@@ -1,11 +1,14 @@
+
 const mongoose=require("mongoose")
 
-mongoose.connect("mongodb://localhost:27017/LoginSignupTutorial")
+
+mongoose.connect("mongodb+srv://ritishbansal123:ritish098@astrology.abdcmbl.mongodb.net/?retryWrites=true&w=majority&appName=Astrology")
+
 .then(()=>{
     console.log('mongodb connected');
 })
 .catch((e)=>{
-    console.log('failed to connect');
+    console.log(e);
 })  
 
 const LogInSchema=new mongoose.Schema({
