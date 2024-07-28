@@ -5,23 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="public/login.css">
 </head>
 <body>
-
-    <h2>Login Form</h2>
-
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="public/ba.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    
+    
+    <div class="wrapper">
     <form action="/login" method="post" >
-        <input placeholder="Name" name="name" type="text">
-        <br>
-        <input placeholder="Password" name="password" type="password">
-        <br>
-        <input  type="submit">
-     <h3>Dont have a account ?</h3>
-    <a href="/signup">Create a new account</a>
+      <h2>Login</h2>
+        <div class="input-field">
+        <input type="text" required name="name">
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" required name="password">
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <input type="submit" value="Log In">
+      <div class="register">
+        <p>Don't have an account? <a href="/signup">Register</a></p>
+      </div>
     </form>
-
-
+    </div>
     
 </body>
 </html>

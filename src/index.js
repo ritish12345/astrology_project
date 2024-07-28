@@ -6,6 +6,7 @@ const collection = require("./mongodb")
 
 
 app.use(express.json())
+app.use(express.static(path.join(__dirname, 'public')));
 
 const tempelatePath = path.join(__dirname, '../tempelates')
 const rootPath = path.join(__dirname, '../'); // Path to the root directory
@@ -28,7 +29,7 @@ app.post('/signup', async (req, res) => {
 
     await collection.insertMany([data])
 
-    res.render("home")
+    res.status(201).sendFile(path.join(rootPath, 'about.html'));
 
 
 })
@@ -54,7 +55,8 @@ app.post('/login', async (req, res) => {
 
     catch{
 
-    res.render("home")
+        res.status(201).sendFile(path.join(rootPath, 'about.html'));
+    
     }
 
 
