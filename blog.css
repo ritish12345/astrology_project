@@ -5,10 +5,10 @@
     position: absolute;
     top: 0; 
     left: 0;
-    width: 218.45vh;
+    width: 500vh;
     height: 0vh;
     
-  
+  background-attachment: fixed;
   z-index: -20000000;
   opacity: 95%;
     
@@ -197,17 +197,19 @@ header.sticky ul li a {
     } 
     
     .hello{
-      background-color: rgb(242, 238, 228)
+      background: #f9f9f9;
       
     }
     .moon {
       
-      background-color: rgb(242, 238, 228);
+      background-color: rgb(223, 213, 193);
+
       
       
       
       
-      display: flex;
+      
+      
       
       
     }
