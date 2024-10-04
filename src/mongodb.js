@@ -1,7 +1,9 @@
 
 const mongoose=require("mongoose")
 require('dotenv').config();
-const uri=process.env.MONGODB_URI
+const uri = 'mongodb://localhost:27017/LoginSignupTutorial';
+ // Replace 'your_database_name' with your actual database name
+
 mongoose.connect(uri)
 
     .then(()=>{
@@ -22,6 +24,6 @@ const LogInSchema=new mongoose.Schema({
     }
 })
 
-const collection=new mongoose.model('Collection1',LogInSchema)
+const collection=new mongoose.model('collection1',LogInSchema)
 
 module.exports=collection

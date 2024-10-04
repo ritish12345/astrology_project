@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-image: url(images/fantasy-astral-wallpaper-composition.jpg); /* Ensure the correct image path is used */
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the body takes the full viewport height */
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .first_row {
+    margin-bottom: 10px;
+    height: 60px;
+    background-color:  rgb(253, 250, 234)
+}
+
+.contact-details {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.contact-details1 {
+    display: inline-block;
+    margin-right: 570px;
+    margin-top: 10px;
+}
+
+.consult {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgb(50, 50, 46);
+    color: #333;
+    text-transform: none;
+    padding: 8px 20px 10px;
+    border-radius: 50px;
+    margin-right: 150px;
+}
+
+.consult:hover {
+    background-color: rgb(244, 244, 221);
+    transform: scale(0.9);
+}
+
+.login-sign {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+
+.shopping-cart {
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+    
+    a {
+        text-decoration: none;
+        color: inherit; /* Use parent's color */
+      }
+    
+    .home,.shop{
+        position: relative; /* Position the dropdown content relative to the button */
+        display: inline-block;
+        
+         /* Keep the dropdown elements together */
+      }
+      
+      .dropdown-toggle {
+       
+        border: none;
+        color: rgb(253, 250, 234);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      
+      .dropdown-content {
+        display: none; /* Hide the dropdown content initially */
+        position: absolute;
+        background-color: rgb(253, 250, 234);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid #282626; /* Adjust color as needed */
+      }
+    
+      .dropdown-content a:last-child {
+        border-bottom: none;
+    }
+    
+      
+      .dropdown-content a:hover { /* Change color of dropdown links on hover */
+        background-color: #ddd;
+      }
+      
+      .home:hover .dropdown-content { /* Show the dropdown menu on hover */
+        display: block;
+         
+      }
+      .shop:hover .dropdown-content { /* Show the dropdown menu on hover */
+        display: block;
+      }
+      
+      ul.no-bullets{
+        list-style-type: none;
+        display:flex;
+        
+    }
+    
+    header {
+      
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+        
+      height: 20vh;
+      padding-left: 80px; /* Optional: align elements to start */
+       /* Ensure header height consistency */
+    }
+
+    .symbol {
+        height: 50px;
+        width: 200px; /* Set specific width */
+        margin-left: 0; /* Position image at left edge */
+        margin-right: 310px;
+        margin-top: 8px;
+       /* clip-path: circle(100%);*/
+        
+        
+      } 
+      
+      
+      
+      
+      
+      .about-section {
+        display: flex;
+        
+        
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      
+      .centered-content {
+        display: flex;
+        color : white;
+        flex-direction: column; /* stack heading and list vertically */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+      }

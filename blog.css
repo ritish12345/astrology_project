@@ -142,7 +142,7 @@ header {
 
 header.sticky {
   position: sticky;
-  top: 0;
+  top: -1px;
   padding: 40px 100px;
   padding-left: 70px;
   background:rgb(30, 30, 30);
